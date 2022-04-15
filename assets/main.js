@@ -30,6 +30,7 @@ window.onload = function(){
             });
             localStorage.setItem("tasks", JSON.stringify(niz));
             localStorage.setItem("id", JSON.stringify(id));
+            $("#ubaci").html("");
             loadTasks(niz);
             return 0;
         }
